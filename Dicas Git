@@ -1,0 +1,52 @@
+# 📘 Resumão de Comandos Git — Dia a Dia
+
+## 🔧 Configuração inicial
+    git config --global user.name "Seu Nome"
+    git config --global user.email "seuemail@example.com"
+
+## 🏁 Criar ou iniciar um repositório
+    git init
+    git clone https://github.com/usuario/repositorio.git
+
+## 📌 Ver status
+    git status
+
+## ➕ Adicionar arquivos
+    git add .
+    git add nome_do_arquivo
+
+## 📝 Criar commit
+    git commit -m "Mensagem do commit"
+
+## ⬆️ Enviar para o GitHub (push)
+    git push -u origin main
+    git push
+
+## ⬇️ Baixar do GitHub (pull)
+    git pull
+
+## 🔄 Sync (VS Code)
+O botão **Sync** executa internamente:
+    git pull
+    git push
+
+## 🌿 Branches
+    git branch nome-da-branch
+    git checkout nome-da-branch
+    git checkout -b nome-da-branch
+    git branch
+
+## 🔀 Merge
+    git merge nome-da-branch
+
+## 🗑️ Desfazer alterações
+    git checkout -- nome_do_arquivo
+    git reset nome_do_arquivo
+    git reset --soft HEAD~1
+    git reset --hard HEAD~1
+
+## 🔗 Conectar repositório local ao remoto
+    git remote add origin https://github.com/usuario/repositorio.git
+
+## 🧹 Histórico (log)
+    git log --oneline --graph --decorate
