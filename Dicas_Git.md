@@ -1,4 +1,4 @@
-# 🐙 DIO | Git e GitHub 
+# 🐙 | Git e GitHub 
 > Um guia rápido para os comandos essenciais do dia a dia.
 
 ---
