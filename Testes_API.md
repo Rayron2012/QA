@@ -53,3 +53,32 @@ Uma vez com todos os testes em API realizados e bugs devidamente corrigidos, gar
 ### Maior Cobertura
 
 Em um mundo onde existem diversas aplicações (Web, Mobile, etc.), se garantirmos que a API está 100% funcional de acordo com os requisitos, garantimos qualidade em toda e qualquer plataforma.
+
+## Testes em API REST e Métodos HTTP
+
+Abaixo deixo os métodos HTTP mais usados de forma geral. Existem vários outros, não se limitando apenas aos exemplos abaixo:
+
+### GET
+
+Pegar ou pedir uma informação, onde o dado retornado pelo servidor é a representação do estado atual da informação solicitada naquele momento, podendo ser uma lista de informações, um único item ou um status code.
+
+
+### POST
+
+Pode ser entendido como postar/enviar informações para o servidor, podendo ser uma ação de criação de recursos ou, em casos mais complexos, enviar uma informação para obter um retorno específico.
+
+### PUT
+
+Atualizar informações de um recurso. É importante saber que, ao usar o PUT, deve-se usar todo o corpo da requisição (os mesmos campos que se recebe em um GET). Caso isso não seja feito, os demais campos serão entendidos como NULL; ou seja, mesmo que uma atualização seja feita em um campo do recurso, é necessário inserir todos os outros do corpo da requisição.
+
+### PATCH
+
+Mesmo funcionamento do PUT, porém, enquanto no PUT você deve passar todo o corpo da requisição para atualizar um recurso, no PATCH você pode passar apenas campos parciais, como, por exemplo, apenas o campo que você quer atualizar do recurso. Inclusive, eu tenho preferência por usar o PATCH.
+
+### DELETE
+
+Retirar/apagar um recurso que existe no servidor; por exemplo, você pode querer apagar o recurso passando um ID como parte do parâmetro na URL.
+
+### CONNECT
+
+Em casos específicos, pode ser usado para criar uma espécie de túnel entre o cliente e o servidor para troca de dados. Isso pode ser útil quando se quer testar algo ou obter uma resposta específica de um servidor, sem passar por servidores de cache, load balancers e outras soluções que ficam no meio entre o cliente e o servidor.
