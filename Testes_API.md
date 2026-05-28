@@ -96,5 +96,15 @@ Em casos específicos, pode ser usado para criar uma espécie de túnel entre o 
 
 <img width="905" height="582" alt="image" src="https://github.com/user-attachments/assets/e5313d9d-a782-4c6b-8f5c-9f26ff9f31fe" />
 
+### Status Codes HTTP
 
+| Código | Descrição |
+| :--- | :--- |
+| **200 OK** | Retornado quando tudo funcionou conforme o esperado. Comum em requisições GET. |
+| **201 Created** | Indica que um novo recurso foi criado com sucesso, geralmente após uma requisição POST. |
+| **204 No Content** | A requisição foi efetuada, mas não há nada para enviar de volta no corpo da resposta. |
+| **400 Bad Request** | Algo estava errado com a requisição, geralmente um erro de sintaxe ou entrada inválida. |
+| **401 Unauthorized** | Acesso negado porque as credenciais de autenticação estão faltando ou incorretas. |
+| **404 Not Found** | Retornado quando o recurso ou endpoint solicitado não existe/não encontrado. |
+| **500 Internal Server Error** | Um erro genérico que significa que o servidor encontrou um problema que não sabia como lidar/resolver. |
 
