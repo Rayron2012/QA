@@ -1,9 +1,9 @@
-# 🐙 | Git e GitHub 
+# Git e GitHub 
 > Um guia rápido para os comandos essenciais do dia a dia.
 
 ---
 
-## 🌱 1. Configuração & Início
+## 1. Configuração & Início
 Comandos para preparar o terreno.
 
 | Comando | O que faz |
@@ -15,7 +15,7 @@ Comandos para preparar o terreno.
 
 ---
 
-## 🔨 2. Fluxo de Trabalho (Dia a Dia)
+## 2. Fluxo de Trabalho (Dia a Dia)
 A rotina básica: **Modificar ➡ Preparar ➡ Salvar**.
 
 | Comando | O que faz |
@@ -28,7 +28,7 @@ A rotina básica: **Modificar ➡ Preparar ➡ Salvar**.
 
 ---
 
-## 🌿 3. Branches (Ramificações)
+## 3. Branches (Ramificações)
 Para trabalhar em novas funcionalidades sem quebrar o código principal.
 
 | Ação | Comando |
@@ -42,16 +42,16 @@ Para trabalhar em novas funcionalidades sem quebrar o código principal.
 
 ---
 
-## 🚀 4. Sincronização (Remoto)
+## 4. Sincronização (Remoto)
 Conectando com a nuvem (GitHub/GitLab).
 
-* 📥 **Baixar:** `git pull origin main` (Traz atualizações e junta)
-* 📤 **Enviar:** `git push origin main` (Envia seus commits)
-* 👀 **Espiar:** `git fetch` (Baixa atualizações mas não aplica ao código)
+* **Baixar:** `git pull origin main` (Traz atualizações e junta)
+* **Enviar:** `git push origin main` (Envia seus commits)
+* **Espiar:** `git fetch` (Baixa atualizações mas não aplica ao código)
 
 ---
 
-## ⏪ 5. Emergências (Undo)
+## 5. Emergências (Undo)
 _Use com cautela!_
 
 | Situação | Comando |
