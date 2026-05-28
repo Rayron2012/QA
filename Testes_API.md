@@ -62,23 +62,39 @@ Abaixo deixo os métodos HTTP mais usados de forma geral. Existem vários outros
 
 Pegar ou pedir uma informação, onde o dado retornado pelo servidor é a representação do estado atual da informação solicitada naquele momento, podendo ser uma lista de informações, um único item ou um status code.
 
+<img width="907" height="593" alt="image" src="https://github.com/user-attachments/assets/af2c8f33-5f80-4ecf-833d-26a14a7363d7" />
+
 
 ### POST
 
 Pode ser entendido como postar/enviar informações para o servidor, podendo ser uma ação de criação de recursos ou, em casos mais complexos, enviar uma informação para obter um retorno específico.
 
+<img width="909" height="578" alt="image" src="https://github.com/user-attachments/assets/d5488122-9f1a-4319-b798-df18e8ae8163" />
+
 ### PUT
 
 Atualizar informações de um recurso. É importante saber que, ao usar o PUT, deve-se usar todo o corpo da requisição (os mesmos campos que se recebe em um GET). Caso isso não seja feito, os demais campos serão entendidos como NULL; ou seja, mesmo que uma atualização seja feita em um campo do recurso, é necessário inserir todos os outros do corpo da requisição.
+
+<img width="910" height="585" alt="image" src="https://github.com/user-attachments/assets/5e635df3-df21-48ae-85d5-21b682ca8c54" />
+
 
 ### PATCH
 
 Mesmo funcionamento do PUT, porém, enquanto no PUT você deve passar todo o corpo da requisição para atualizar um recurso, no PATCH você pode passar apenas campos parciais, como, por exemplo, apenas o campo que você quer atualizar do recurso. Inclusive, eu tenho preferência por usar o PATCH.
 
+<img width="915" height="586" alt="image" src="https://github.com/user-attachments/assets/88d9cc74-cfa8-46d9-8770-f30e1eef6e18" />
+
 ### DELETE
 
 Retirar/apagar um recurso que existe no servidor; por exemplo, você pode querer apagar o recurso passando um ID como parte do parâmetro na URL.
 
+<img width="917" height="584" alt="image" src="https://github.com/user-attachments/assets/b409bec8-f0bb-4e53-bfef-0e7dfb220a16" />
+
 ### CONNECT
 
 Em casos específicos, pode ser usado para criar uma espécie de túnel entre o cliente e o servidor para troca de dados. Isso pode ser útil quando se quer testar algo ou obter uma resposta específica de um servidor, sem passar por servidores de cache, load balancers e outras soluções que ficam no meio entre o cliente e o servidor.
+
+<img width="905" height="582" alt="image" src="https://github.com/user-attachments/assets/e5313d9d-a782-4c6b-8f5c-9f26ff9f31fe" />
+
+
+
