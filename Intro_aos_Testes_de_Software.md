@@ -11,10 +11,10 @@ Além de que com eles a empresa tenta eliminar/sanar erros dentro do programa/ap
 
 De forma resumida o papel do profissional tem como responsabilidade:
 
-    * Criar planos de testes: Estruturar como a aplicação será avaliada.
-    * Encontrar Bugs: Identificar onde o comportamento observado é diferente do esperado.
-    * Identificar potenciais problemas: Ter a visão do usuário final, antecipando falhas antes que cheguem ao público.
-    * Desenvolver/ Adotar Padrões de Qualidade: Estabelecer réguas de aceitação (Cenários de Teste, Definição de pronto).
+   * Criar planos de testes: Estruturar como a aplicação será avaliada.
+   * Encontrar Bugs: Identificar onde o comportamento observado é diferente do esperado.
+   * Identificar potenciais problemas: Ter a visão do usuário final, antecipando falhas antes que cheguem ao público.
+   * Desenvolver/ Adotar Padrões de Qualidade: Estabelecer réguas de aceitação (Cenários de Teste, Definição de pronto).
 
 ### A Importância do QA na Indústria de Software
 
