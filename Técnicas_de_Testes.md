@@ -65,3 +65,11 @@ Uma técnica fortemente baseada na experiência e na intuição. Conforme você 
 ### Teste Baseado em Caso de Uso
 
 Diferente do teste exploratório, essa técnica é altamente estruturada e orientada a objetivos claros, acompanhando a jornada do usuário de ponta a ponta. Foca em como o ator interage com o sistema para atingir uma meta, validando tanto o fluxo principal (caminho feliz) quanto os fluxos alternativos e exceções com base nas especificações do negócio.
+
+---
+
+### Teste De Mutação 
+
+O Teste de Mutação é uma abordagem avançada de teste de software focada em avaliar a qualidade e a eficácia dos próprios casos de teste, cria mutantes no códigos da aplicação, para validar a força da suite de testes, se os testes não falham com essas alterações é sinal de que a suite esta fragil.
+
+Em resumo, é uma técnica usada não para testar o software diretamente, mas para testar se os seus testes realmente conseguem encontrar problemas no código.
