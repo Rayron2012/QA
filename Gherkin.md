@@ -13,9 +13,13 @@ Uma boa forma de aplicar o Gherkin é quando vamos descrever  padrao de comporta
   * **Gherkin:**
     * *Given **(Pt. Dado)***: Define a pré-condição ou o cenário em que você se encontra antes do teste começar. É o contexto inicial, geralmente escrito pensando no passado. Exemplo: Dado que a página de login do painel de monitoramento está aberta.
     * *When **(Pt. Quando)***: É o gatilho principal. Representa o que é executado naquele momento (no presente) para provocar uma reação do sistema. Exemplo: Quando eu insiro credenciais de administrador válidas.
-    * *Given **(Pt. Então)***: É o resultado, etapa de validação, verificamos se a reação do sistema, gerada pela ação anterior, corresponde exatamente ao que era esperado. Exemplo: O dashboard principal com os alertas deve ser carregado na tela.
-    * *Given **(Pt. E)***: É um conector usado para adicionar mais um passo no fluxo sem precisar repetir o DADO, QUANDO, ENtÃO. Exemplo: E clico no botão "Autenticar"./
-  * O **Given pt. E**: Deve ser usado antes de provocar a ação final
-Testando apenas um representante de cada grupo, cobrimos o comportamento esperado e facilitamos a execução dos testes sem redundância.
+    * *Then **(Pt. Então)***: É o resultado, etapa de validação, verificamos se a reação do sistema, gerada pela ação anterior, corresponde exatamente ao que era esperado. Exemplo: O dashboard principal com os alertas deve ser carregado na tela.
+    * *And **(Pt. E)***: É um conector usado para adicionar mais um passo no fluxo sem precisar repetir o DADO, QUANDO, ENtÃO. Exemplo: E clico no botão "Autenticar"./
+  * **Uso do And (E):** Serve como um conector para somar passos adicionais sem repetir o Dado, Quando ou Então. Ele assume o mesmo papel do passo que veio antes dele:
+    - Pode adicionar mais pré-condições (Dado... E...).
+    - Pode adicionar mais ações (Quando... E...).
+    - Pode adicionar mais validações finais (Então... E...).
 
 ---
+
+### Formas Incorretas de utilizar o Gherkin
